@@ -10,3 +10,21 @@ NOTICE:
 ----------------------------------------------------------------
 
 This is the beta version of Subjects. Which is experimental. 
+
+
+
+
+
+GETTING STARTED
+----------------------------------------------------------------
+
+In this section, we are going to show you how to get started with this
+
+
+
+Dependencies:
+--------------
+
+- Node.js
+- NPM 
+- Python-Flask
