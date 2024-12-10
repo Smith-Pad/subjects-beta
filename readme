@@ -29,3 +29,11 @@ Dependencies:
 - NPM 
 - Python-Flask
 - Vite
+
+
+
+
+Installation of Dependencies:
+--------------------------------
+
+- [npm create vite@latest my-react-app --template react]
