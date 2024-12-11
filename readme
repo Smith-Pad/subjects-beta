@@ -33,11 +33,9 @@ Dependencies:
 
 
 
-Getting Started with the setup
---------------------------------
+
+Getting Started With Initializing: 
 
 
-
-1. The first thing is to use this command, to create the vite/react template
-    - [npm create vite@latest my-react-app --template react]
-        - Then Select React and Javascript/HMR
+1. `npm install`
+2. `npm run dev`
