@@ -33,7 +33,10 @@ Dependencies:
 
 
 
-Installation of Dependencies:
+Getting Started with the setup
 --------------------------------
 
-- [npm create vite@latest my-react-app --template react]
+
+
+1. The first thing is to use this command, to create the vite/react template
+    - [npm create vite@latest my-react-app --template react]
