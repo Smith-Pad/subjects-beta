@@ -39,3 +39,10 @@ Getting Started With Initializing:
 
 1. `npm install`
 2. `npm run dev`
+
+
+
+
+Updates: 
+
+For now, the production version of the UX will be displayed. Most important thing is to experiment and get it to work properly. 
