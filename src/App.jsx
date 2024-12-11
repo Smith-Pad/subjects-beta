@@ -4,13 +4,15 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+    const [count, setCount] = useState(0)
 
-  return (
-    <>
-        Blank
-    </>
-  )
+    return (
+        <>
+            <div class="layout indicator-side-round">
+                <h1> Subjects </h1>
+            </div>
+        </>
+    )
 }
 
-export default App
+export default App  
