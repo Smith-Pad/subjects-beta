@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import './position-text.css'
+import { Link } from 'react-router-dom';
 // import './UI.css'
 
 
@@ -42,6 +43,7 @@ function App() {
                 <h1> List</h1>
 
                 <button class="button">3D Sphere Test</button>
+                <a href="main.jsx" class="button small button is-red button-no-animate-mode">Again</a>
             </div>
         </>
     )
