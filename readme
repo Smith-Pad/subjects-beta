@@ -40,3 +40,4 @@ Getting Started with the setup
 
 1. The first thing is to use this command, to create the vite/react template
     - [npm create vite@latest my-react-app --template react]
+        - Then Select React and Javascript/HMR
