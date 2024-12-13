@@ -1,14 +1,31 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import './position-text.css'
+import { useState } from 'react';
+import { BrowserRouter, Routes, Route, Link, useNavigate } from 'react-router-dom'; // Import useNavigate here
+import './App.css';
+import './position-text.css';
 
-// This is a requirement. 
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 
 function App() {
-    const [count, setCount] = useState(0)
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+            </Routes>
+        </BrowserRouter>
+    );
+}
+
+export default App;
+
+
+
+function Home() {
+
+    const Navigate = useNavigate();
+
+    const routeToAbout = () => {
+        Navigate('/about');
+    };
 
     return (
         <>
@@ -42,10 +59,42 @@ function App() {
             <div class="layout side-round">
                 <h1> List</h1>
 
-                <button class="button">3D Sphere Test</button>
+                <button class="button small button button-no-animate-mode" onClick={routeToAbout}>Go to About</button>
             </div>
         </>
-    )
+    );
 }
 
-export default App
+
+
+
+function About() {
+
+    const Navigate = useNavigate();
+
+    const routeToHome = () => {
+        Navigate('/');
+    };
+
+    return (
+        <>
+            <div class="layout indicator-side-round">
+                <h1> About </h1> <button class="button small button button-no-animate-mode" onClick={routeToHome}>Back</button>
+            </div>
+
+
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+        </>
+    );
+}
