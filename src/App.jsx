@@ -9,21 +9,6 @@ import './App.css';
 import './position-text.css';
 
 
-function App() {
-    return (
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-            </Routes>
-        </BrowserRouter>
-    );
-}
-
-export default App;
-
-
-
 function Home() {
 
     const Navigate = useNavigate();
@@ -103,3 +88,19 @@ function About() {
         </>
     );
 }
+
+
+
+
+function App() {
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+            </Routes>
+        </BrowserRouter>
+    );
+}
+
+export default App;
