@@ -4,6 +4,11 @@ import './App.css';
 import './position-text.css';
 
 
+
+import '../JSX-About-Subjects/index';
+import '../JSX-Home-Screen/index';
+
+
 function App() {
     return (
         <BrowserRouter>
