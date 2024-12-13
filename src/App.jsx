@@ -49,7 +49,7 @@ function Home() {
             <div class="layout side-round">
                 <h1> List</h1>
 
-                <button class="button small button button-no-animate-mode" onClick={routeToAbout}>Go to About</button>
+                <button class="button small button button-no-animate-mode" onClick={routeToAbout}>About Subjects</button>
             </div>
         </>
     );
