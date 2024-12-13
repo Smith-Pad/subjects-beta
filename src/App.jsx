@@ -1,10 +1,15 @@
+// Group 1: React imports
 import { useState } from 'react';
 import { BrowserRouter, Routes, Route, Link, useNavigate } from 'react-router-dom'; // Import useNavigate here
+
+
+
+// Group 2: CSS
 import './App.css';
 import './position-text.css';
 
 
-
+// Group 3: Local components
 import '../JSX-About-Subjects/index';
 import '../JSX-Home-Screen/index';
 
