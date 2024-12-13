@@ -9,11 +9,6 @@ import './App.css';
 import './position-text.css';
 
 
-// Group 3: Local components
-import '../JSX-About-Subjects/index';
-import '../JSX-Home-Screen/index';
-
-
 function App() {
     return (
         <BrowserRouter>
