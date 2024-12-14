@@ -55,16 +55,3 @@ NPM Dependencies:
 - This will be updated soon...
 
 
-
-File Structure = Skill Issue... 
-____________________________________________________________________
-    src/
-    │
-    ├── components/
-    │   ├── Home.jsx
-    │   ├── About.jsx
-    │
-    ├── App.jsx
-    ├── App.css
-    ├── position-text.css
-____________________________________________________________________-
