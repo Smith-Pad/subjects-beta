@@ -11,9 +11,7 @@ import './position-text.css';
 function App() {
     return (
         <>
-            <div class="get-no-layout-indicator-side-round">
-              Subjects
-            </div>
+
         </>
     );
 }
