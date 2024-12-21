@@ -19,11 +19,4 @@
         List of Files: 
       --
         |- global.scss
-        |- buttons.scss
-        |- bar.scss
-        |- status-bar.scss
-        |- grid.scss
-        |- sidebar.scss
-        |- bottom-navigation.scss
-        |- user-profile.scss
-        |- clock-mode.scss 
+        |- header-bar.scss
