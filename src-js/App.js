@@ -11,7 +11,7 @@ import './position-text.css';
 function App() {
     return (
         <>
-
+				sidebar		 
         </>
     );
 }
